@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+#mapContent {
+    margin: auto;
+    margin-top: calc(50vh - 400px);
+    height: 800px;
+    width: 1200px;
+}
+
+h1 {
+    margin: 35px;
+    text-align: center;
+}
+
+#map {
+    background-color: rgb(46, 46, 46);
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 500px;
+    width: 1200px;
+}
+
+#options {
+    border: 1px dashed white;
+    border-radius: 40px;
+    margin: 35px auto;
+    padding: 10px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    padding: 5px;
+}
+
+#options>input {
+    display: block;
+}
